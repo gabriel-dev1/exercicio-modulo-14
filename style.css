@@ -1,0 +1,88 @@
+body {
+    font-family: "Noto sans", sans-serif;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.navbar {
+    background-color:black;
+}
+
+.nav-link, .navbar {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color:slategrey;
+}
+
+.navbar-toggler {
+    background-color:slategrey;
+}
+
+#header .nav-link.active {
+    background-color: slateblue;
+}
+
+#header .nav-link {
+    color: #fff;
+}
+
+#tab img {
+    width: 280px;
+    height: 200px;
+}
+
+#tab .nav-link.active {
+    background-color: black;
+    color: #fff;
+}
+
+.carousel-inner, .carousel-inner img {
+    width: 1044px;
+    height: 600px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.text-colored {
+    color: slateblue;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner, .carousel-inner img {
+        width: 350px;
+        height: 300px;
+    }
+
+    #tab img {
+        margin-top: 16px;
+    }
+
+    .social-links,  .social-links title {
+        text-align: center;
+    }
+
+    #contato .btn {
+        margin-bottom: 16px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .carousel-inner, .carousel-inner img {
+        width: 655px;
+        height: 400px;
+    }
+
+}

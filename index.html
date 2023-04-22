@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre jogos</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-2" id="header">
+      <div class="container">
+        <h1 class="navbar">Sobre <span class="text-colored">jogos</span></h1>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar-collapse collapse justify-content-end" id="nav">
+        <ul class="nav nav-pills d-block d-md-flex m-4">
+            <li class="nav-item fw-bold">              
+                <a class="nav-link" href="#about">
+                    <i class="bi bi-controller me-1"></i>
+                    Sobre o site
+                </a>
+            </li>
+            <li class="nav-item fw-bold">               
+                <a class="nav-link" href="#games">
+                    <i class="bi bi-joystick me-1"></i>
+                    Mais jogados
+                </a>
+            </li>
+            <li class="nav-item fw-bold">
+                <a class="nav-link" href="#tab">
+                    <i class="bi bi-dpad me-1"></i>
+                    Jogos
+                </a>
+            </li>
+            <li class="nav-item fw-bold">
+                <a class="nav-link" href="#contato">
+                    <i class="bi bi-chat-left-text me-1"></i>
+                    Entre em contato
+                </a>
+            </li>
+        </ul>
+      </nav>
+     </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#header" data-bs-smooth-scroll="true">
+    <section id="about">
+        <div class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                 <img class="w-100" src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/12/PS4-Best-Selling-Featured.jpg">
+               </div>
+               <div class="col-md-4">
+                   <h2>Sobre <span class="text-colored"> o site </span></h2>
+                   <p>
+                      Esse site foi criado para apresentar os jogos mais jogados, para as pessoas que estão começando a jogar recentemente.
+                   </p>
+               </div>
+          </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="games" class="pt-5">
+        <div class="container">
+        <h2 class="text-colored">Jogos</h2>
+          <div class="carousel slide mt-3" data-bs-ride="carousel" id="carousel">
+              <div class="carousel-inner">
+
+                  <div class="carousel-item active" data-bs-interval="3000">
+                      <img src="https://cdn2.unrealengine.com/battlefield-2042-gameplay-trailer-1920x1080-230723a759b2.jpg">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="https://www.gamespot.com/a/uploads/screen_kubrick/1574/15746725/3648546-trailer_codmw2_2020331.jpg">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="https://th.bing.com/th/id/R.79c7b612446ed333abb9d44aa2a12c34?rik=KcqM7t%2bOk9N5jg&pid=ImgRaw&r=0">
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+
+              </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="tab" class="pt-5">
+        <div class="container">
+            <div class="row">
+                <h2>Mais <span class="text-colored">jogados</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column">
+                      <button data-bs-toggle="tab" data-bs-target="#action" type="button" class="fw-bold text-start nav-link text-colored active">Ação</button>
+                      <button data-bs-toggle="tab" data-bs-target="#aventura" type="button" class="fw-bold text-start nav-link text-colored">Aventura</button>
+                    </nav>
+                </aside>
+
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="action">
+                            <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.gamespot.com/a/uploads/screen_kubrick/1574/15746725/3648546-trailer_codmw2_2020331.jpg">
+                                        <h3>Call of duty</h3>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn2.unrealengine.com/battlefield-2042-gameplay-trailer-1920x1080-230723a759b2.jpg">
+                                        <h3>Battlefield</h3>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://th.bing.com/th/id/R.79c7b612446ed333abb9d44aa2a12c34?rik=KcqM7t%2bOk9N5jg&pid=ImgRaw&r=0">
+                                        <h3>Titanfall</h3>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="aventura">
+                            <div class="row">                      
+                                   <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://th.bing.com/th/id/R.fd825385ea3d2ad75e6f865314b1a49f?rik=PbuhLs9C%2fynB4g&pid=ImgRaw&r=0">
+                                        <h3>Elden Ring</h3>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn2.unrealengine.com/battlefield-2042-gameplay-trailer-1920x1080-230723a759b2.jpg">
+                                        <h3>Battlefield</h3>
+                                    </div>
+ 
+                                </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h2>Entre <span class="text-colored">em contato</span></h2>
+                    <form>
+                    <div class="mb-3 mt-3">
+                      <label for="name" class="form-label">Seu nome:</label>
+                      <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Seu email</label>
+                      <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Sua mensagem:</label>
+                      <textarea type="text" id="message" class="form-control" required></textarea>
+                    </div>
+                    <button class="btn btn-dark mt-1">Enviar</button>
+                   </form>
+                </div>
+                <div class="col-md-5 ps-5">
+                    <h2 class="title fs-3">Redes <span class="text-colored">sociais----------</span></h2>
+                    <ul class="social-links p-0">
+                        <li class="fs-4">
+                            <a href="">
+                                -----------------
+                                <i class="bi bi-instagram text-colored"></i>
+                            </a>
+                        </li>
+                        <li class="fs-4 ms-2 me-2">
+                            <a href="">
+                                <i class="bi bi-facebook text-colored"></i>
+                            </a>
+                        </li>
+                        <li class="fs-4">
+                            <a href="">
+                                <i class="bi bi-tiktok text-colored"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        
+
+        </div>
+    </section>
+   </div>
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
